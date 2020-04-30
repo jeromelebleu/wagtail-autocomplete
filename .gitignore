@@ -9,9 +9,11 @@ node_modules
 # Docs
 /docs/_build/
 
-# Testing
+# Testing / coverage reports
+/.coverage
 /.pytest_cache/
 /.tox/
+/htmlcov/
 
 # Python packaging
 /build/
