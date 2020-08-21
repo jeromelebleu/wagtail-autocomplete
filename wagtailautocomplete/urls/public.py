@@ -1,9 +1,8 @@
-from django.conf.urls import url
+from django.urls import path
 
 from wagtailautocomplete.views import objects, search
 
-
 urlpatterns = [
-    url(r'^objects/', objects),
-    url(r'^search/', search),
+    path('objects/', objects),
+    path('search/', search),
 ]
